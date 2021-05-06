@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E01BF1C26418AF500B64E37 /* ChooseNegativeEmotionPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E01BF1A26418AF500B64E37 /* ChooseNegativeEmotionPopupViewController.swift */; };
+		8E01BF1F26418CEC00B64E37 /* NegativeEmotionInfoPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E01BF1E26418CEC00B64E37 /* NegativeEmotionInfoPopupViewController.swift */; };
+		8E01BF252641AB7500B64E37 /* DetailActiveNegativeEmotionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E01BF242641AB7500B64E37 /* DetailActiveNegativeEmotionViewController.swift */; };
+		8E01BF2A2641CD9900B64E37 /* ActionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E01BF282641CD9900B64E37 /* ActionTableViewCell.swift */; };
+		8E01BF2B2641CD9900B64E37 /* ActionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E01BF292641CD9900B64E37 /* ActionTableViewCell.xib */; };
+		8E0F5DE326401178007086EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E0F5DE226401178007086EC /* HomeViewController.swift */; };
+		8E41F60A263FCF0600687B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41F609263FCF0600687B3A /* AppDelegate.swift */; };
+		8E41F60C263FCF0600687B3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41F60B263FCF0600687B3A /* SceneDelegate.swift */; };
+		8E41F611263FCF0600687B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F60F263FCF0600687B3A /* Main.storyboard */; };
+		8E41F614263FCF0600687B3A /* Orcare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E41F612263FCF0600687B3A /* Orcare.xcdatamodeld */; };
+		8E41F616263FCF0700687B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F615263FCF0700687B3A /* Assets.xcassets */; };
+		8E41F619263FCF0700687B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F617263FCF0700687B3A /* LaunchScreen.storyboard */; };
+		8E41F630263FD37600687B3A /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F62B263FD37500687B3A /* Poppins-Bold.ttf */; };
+		8E41F631263FD37600687B3A /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F62C263FD37500687B3A /* Poppins-Light.ttf */; };
+		8E41F632263FD37600687B3A /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F62D263FD37500687B3A /* Poppins-Medium.ttf */; };
+		8E41F633263FD37600687B3A /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F62E263FD37500687B3A /* Poppins-SemiBold.ttf */; };
+		8E41F634263FD37600687B3A /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E41F62F263FD37500687B3A /* Poppins-Regular.ttf */; };
+		8E41F63E263FE1A100687B3A /* UserDefaults+isFirstLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41F63D263FE1A100687B3A /* UserDefaults+isFirstLaunch.swift */; };
+		8E41F642263FE31100687B3A /* NegativeEmotion+initData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41F641263FE31100687B3A /* NegativeEmotion+initData.swift */; };
+		8E41F644263FE55F00687B3A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41F643263FE55F00687B3A /* DataManager.swift */; };
+		8EAB2DA62640168B00A34A2F /* EmptyActiveNegativeEmotionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB2DA52640168B00A34A2F /* EmptyActiveNegativeEmotionView.xib */; };
+		8EAB2DA92640170000A34A2F /* EmptyActiveNegativeEmotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB2DA82640170000A34A2F /* EmptyActiveNegativeEmotionView.swift */; };
+		8EAB2DAB2640280E00A34A2F /* ActiveNegativeEmotionExistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB2DAA2640280E00A34A2F /* ActiveNegativeEmotionExistView.swift */; };
+		8EAB2DAD264028EB00A34A2F /* ActiveNegativeEmotionExistView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB2DAC264028EB00A34A2F /* ActiveNegativeEmotionExistView.xib */; };
+		8EAB2DB026402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB2DAE26402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.swift */; };
+		8EAB2DB126402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB2DAF26402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.xib */; };
+		8EAB2DB72640943D00A34A2F /* AddActiveNegativeEmotionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB2DB62640943D00A34A2F /* AddActiveNegativeEmotionButton.swift */; };
+		8EAB2DB92641144500A34A2F /* ChooseNegativeEmotionPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB2DB82641144500A34A2F /* ChooseNegativeEmotionPopupView.xib */; };
+		8EAB2DBE264137FB00A34A2F /* NegativeEmotionInfoPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EAB2DBD264137FB00A34A2F /* NegativeEmotionInfoPopupView.xib */; };
+		8EE2A3C626431FBB00B29AB4 /* ActionRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE2A3C426431FBB00B29AB4 /* ActionRecordTableViewCell.swift */; };
+		8EE2A3C726431FBB00B29AB4 /* ActionRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE2A3C526431FBB00B29AB4 /* ActionRecordTableViewCell.xib */; };
+		8EE2A3C92643214B00B29AB4 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE2A3C82643214B00B29AB4 /* RecordViewController.swift */; };
+		8EFC21F9264280340055E43F /* DataManager+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC21F8264280340055E43F /* DataManager+Action.swift */; };
+		8EFC21FB264280DE0055E43F /* DataManager+NegativeEmotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC21FA264280DE0055E43F /* DataManager+NegativeEmotion.swift */; };
+		8EFC21FE264306160055E43F /* ActionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC21FC264306160055E43F /* ActionCollectionViewCell.swift */; };
+		8EFC21FF264306160055E43F /* ActionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC21FD264306160055E43F /* ActionCollectionViewCell.xib */; };
+		8EFC220226430C8C0055E43F /* CongratulationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC220126430C8C0055E43F /* CongratulationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E01BF1A26418AF500B64E37 /* ChooseNegativeEmotionPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseNegativeEmotionPopupViewController.swift; sourceTree = "<group>"; };
+		8E01BF1E26418CEC00B64E37 /* NegativeEmotionInfoPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeEmotionInfoPopupViewController.swift; sourceTree = "<group>"; };
+		8E01BF242641AB7500B64E37 /* DetailActiveNegativeEmotionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailActiveNegativeEmotionViewController.swift; sourceTree = "<group>"; };
+		8E01BF282641CD9900B64E37 /* ActionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTableViewCell.swift; sourceTree = "<group>"; };
+		8E01BF292641CD9900B64E37 /* ActionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionTableViewCell.xib; sourceTree = "<group>"; };
+		8E0F5DE226401178007086EC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8E41F606263FCF0600687B3A /* Orcare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orcare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E41F609263FCF0600687B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E41F60B263FCF0600687B3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E41F610263FCF0600687B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E41F613263FCF0600687B3A /* Orcare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Orcare.xcdatamodel; sourceTree = "<group>"; };
+		8E41F615263FCF0700687B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E41F618263FCF0700687B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E41F61A263FCF0700687B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E41F62B263FD37500687B3A /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		8E41F62C263FD37500687B3A /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		8E41F62D263FD37500687B3A /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		8E41F62E263FD37500687B3A /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		8E41F62F263FD37500687B3A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		8E41F63D263FE1A100687B3A /* UserDefaults+isFirstLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+isFirstLaunch.swift"; sourceTree = "<group>"; };
+		8E41F641263FE31100687B3A /* NegativeEmotion+initData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NegativeEmotion+initData.swift"; sourceTree = "<group>"; };
+		8E41F643263FE55F00687B3A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8EAB2DA52640168B00A34A2F /* EmptyActiveNegativeEmotionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyActiveNegativeEmotionView.xib; sourceTree = "<group>"; };
+		8EAB2DA82640170000A34A2F /* EmptyActiveNegativeEmotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyActiveNegativeEmotionView.swift; sourceTree = "<group>"; };
+		8EAB2DAA2640280E00A34A2F /* ActiveNegativeEmotionExistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNegativeEmotionExistView.swift; sourceTree = "<group>"; };
+		8EAB2DAC264028EB00A34A2F /* ActiveNegativeEmotionExistView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActiveNegativeEmotionExistView.xib; sourceTree = "<group>"; };
+		8EAB2DAE26402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNegativeEmotionTableViewCell.swift; sourceTree = "<group>"; };
+		8EAB2DAF26402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActiveNegativeEmotionTableViewCell.xib; sourceTree = "<group>"; };
+		8EAB2DB62640943D00A34A2F /* AddActiveNegativeEmotionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActiveNegativeEmotionButton.swift; sourceTree = "<group>"; };
+		8EAB2DB82641144500A34A2F /* ChooseNegativeEmotionPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChooseNegativeEmotionPopupView.xib; path = Component/ChooseNegativeEmotionPopupView.xib; sourceTree = "<group>"; };
+		8EAB2DBD264137FB00A34A2F /* NegativeEmotionInfoPopupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NegativeEmotionInfoPopupView.xib; sourceTree = "<group>"; };
+		8EE2A3C426431FBB00B29AB4 /* ActionRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRecordTableViewCell.swift; sourceTree = "<group>"; };
+		8EE2A3C526431FBB00B29AB4 /* ActionRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionRecordTableViewCell.xib; sourceTree = "<group>"; };
+		8EE2A3C82643214B00B29AB4 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		8EFC21F8264280340055E43F /* DataManager+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataManager+Action.swift"; sourceTree = "<group>"; };
+		8EFC21FA264280DE0055E43F /* DataManager+NegativeEmotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataManager+NegativeEmotion.swift"; sourceTree = "<group>"; };
+		8EFC21FC264306160055E43F /* ActionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCollectionViewCell.swift; sourceTree = "<group>"; };
+		8EFC21FD264306160055E43F /* ActionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionCollectionViewCell.xib; sourceTree = "<group>"; };
+		8EFC220126430C8C0055E43F /* CongratulationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratulationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E41F603263FCF0600687B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E01BF19264185CE00B64E37 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8E01BF212641AAEC00B64E37 /* Home */,
+				8E01BF242641AB7500B64E37 /* DetailActiveNegativeEmotionViewController.swift */,
+				8EFC220126430C8C0055E43F /* CongratulationViewController.swift */,
+				8EE2A3C82643214B00B29AB4 /* RecordViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8E01BF212641AAEC00B64E37 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8E0F5DE226401178007086EC /* HomeViewController.swift */,
+				8E01BF1A26418AF500B64E37 /* ChooseNegativeEmotionPopupViewController.swift */,
+				8E01BF1E26418CEC00B64E37 /* NegativeEmotionInfoPopupViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8E41F5FD263FCF0600687B3A = {
+			isa = PBXGroup;
+			children = (
+				8E41F608263FCF0600687B3A /* Orcare */,
+				8E41F607263FCF0600687B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E41F607263FCF0600687B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E41F606263FCF0600687B3A /* Orcare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E41F608263FCF0600687B3A /* Orcare */ = {
+			isa = PBXGroup;
+			children = (
+				8E41F621263FD31D00687B3A /* Resources */,
+				8E41F620263FD31700687B3A /* Model */,
+				8EAB2DA7264016A400A34A2F /* View */,
+				8E41F609263FCF0600687B3A /* AppDelegate.swift */,
+				8E41F60B263FCF0600687B3A /* SceneDelegate.swift */,
+				8E01BF19264185CE00B64E37 /* Controller */,
+				8E41F61A263FCF0700687B3A /* Info.plist */,
+				8E41F63D263FE1A100687B3A /* UserDefaults+isFirstLaunch.swift */,
+			);
+			path = Orcare;
+			sourceTree = "<group>";
+		};
+		8E41F620263FD31700687B3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8E41F612263FCF0600687B3A /* Orcare.xcdatamodeld */,
+				8E41F643263FE55F00687B3A /* DataManager.swift */,
+				8EFC21F7264280090055E43F /* Repository */,
+				8E41F641263FE31100687B3A /* NegativeEmotion+initData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8E41F621263FD31D00687B3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E41F62A263FD34400687B3A /* Fonts */,
+				8E41F615263FCF0700687B3A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E41F62A263FD34400687B3A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E41F62B263FD37500687B3A /* Poppins-Bold.ttf */,
+				8E41F62C263FD37500687B3A /* Poppins-Light.ttf */,
+				8E41F62D263FD37500687B3A /* Poppins-Medium.ttf */,
+				8E41F62F263FD37500687B3A /* Poppins-Regular.ttf */,
+				8E41F62E263FD37500687B3A /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8EAB2DA7264016A400A34A2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB2DBC2641348400A34A2F /* Component */,
+				8EAB2DB82641144500A34A2F /* ChooseNegativeEmotionPopupView.xib */,
+				8EAB2DBD264137FB00A34A2F /* NegativeEmotionInfoPopupView.xib */,
+				8E41F60F263FCF0600687B3A /* Main.storyboard */,
+				8E41F617263FCF0700687B3A /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EAB2DBC2641348400A34A2F /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8EFC21F126427EFB0055E43F /* ActiveNegativeEmotionExist */,
+				8EFC21F526427F600055E43F /* AddActiveNegativeEmotionButton */,
+				8EFC21F226427F130055E43F /* ActionTableCell */,
+				8EFC21F326427F2E0055E43F /* ActiveNegativeEmotionTableCell */,
+				8EFC21F426427F410055E43F /* EmptyActiveNegativeEmotion */,
+				8EFC2200264306210055E43F /* ActionCollectionCell */,
+				8EE2A3C426431FBB00B29AB4 /* ActionRecordTableViewCell.swift */,
+				8EE2A3C526431FBB00B29AB4 /* ActionRecordTableViewCell.xib */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		8EFC21F126427EFB0055E43F /* ActiveNegativeEmotionExist */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB2DAA2640280E00A34A2F /* ActiveNegativeEmotionExistView.swift */,
+				8EAB2DAC264028EB00A34A2F /* ActiveNegativeEmotionExistView.xib */,
+			);
+			path = ActiveNegativeEmotionExist;
+			sourceTree = "<group>";
+		};
+		8EFC21F226427F130055E43F /* ActionTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8E01BF282641CD9900B64E37 /* ActionTableViewCell.swift */,
+				8E01BF292641CD9900B64E37 /* ActionTableViewCell.xib */,
+			);
+			path = ActionTableCell;
+			sourceTree = "<group>";
+		};
+		8EFC21F326427F2E0055E43F /* ActiveNegativeEmotionTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB2DAE26402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.swift */,
+				8EAB2DAF26402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.xib */,
+			);
+			path = ActiveNegativeEmotionTableCell;
+			sourceTree = "<group>";
+		};
+		8EFC21F426427F410055E43F /* EmptyActiveNegativeEmotion */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB2DA82640170000A34A2F /* EmptyActiveNegativeEmotionView.swift */,
+				8EAB2DA52640168B00A34A2F /* EmptyActiveNegativeEmotionView.xib */,
+			);
+			path = EmptyActiveNegativeEmotion;
+			sourceTree = "<group>";
+		};
+		8EFC21F526427F600055E43F /* AddActiveNegativeEmotionButton */ = {
+			isa = PBXGroup;
+			children = (
+				8EAB2DB62640943D00A34A2F /* AddActiveNegativeEmotionButton.swift */,
+			);
+			path = AddActiveNegativeEmotionButton;
+			sourceTree = "<group>";
+		};
+		8EFC21F7264280090055E43F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8EFC21F8264280340055E43F /* DataManager+Action.swift */,
+				8EFC21FA264280DE0055E43F /* DataManager+NegativeEmotion.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		8EFC2200264306210055E43F /* ActionCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				8EFC21FC264306160055E43F /* ActionCollectionViewCell.swift */,
+				8EFC21FD264306160055E43F /* ActionCollectionViewCell.xib */,
+			);
+			path = ActionCollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E41F605263FCF0600687B3A /* Orcare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E41F61D263FCF0700687B3A /* Build configuration list for PBXNativeTarget "Orcare" */;
+			buildPhases = (
+				8E41F602263FCF0600687B3A /* Sources */,
+				8E41F603263FCF0600687B3A /* Frameworks */,
+				8E41F604263FCF0600687B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orcare;
+			productName = Orcare;
+			productReference = 8E41F606263FCF0600687B3A /* Orcare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E41F5FE263FCF0600687B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8E41F605263FCF0600687B3A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 8E41F601263FCF0600687B3A /* Build configuration list for PBXProject "Orcare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E41F5FD263FCF0600687B3A;
+			productRefGroup = 8E41F607263FCF0600687B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E41F605263FCF0600687B3A /* Orcare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E41F604263FCF0600687B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E41F619263FCF0700687B3A /* LaunchScreen.storyboard in Resources */,
+				8EAB2DB92641144500A34A2F /* ChooseNegativeEmotionPopupView.xib in Resources */,
+				8E41F633263FD37600687B3A /* Poppins-SemiBold.ttf in Resources */,
+				8E01BF2B2641CD9900B64E37 /* ActionTableViewCell.xib in Resources */,
+				8E41F631263FD37600687B3A /* Poppins-Light.ttf in Resources */,
+				8E41F616263FCF0700687B3A /* Assets.xcassets in Resources */,
+				8EAB2DBE264137FB00A34A2F /* NegativeEmotionInfoPopupView.xib in Resources */,
+				8EAB2DA62640168B00A34A2F /* EmptyActiveNegativeEmotionView.xib in Resources */,
+				8E41F632263FD37600687B3A /* Poppins-Medium.ttf in Resources */,
+				8E41F611263FCF0600687B3A /* Main.storyboard in Resources */,
+				8EAB2DB126402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.xib in Resources */,
+				8EFC21FF264306160055E43F /* ActionCollectionViewCell.xib in Resources */,
+				8EAB2DAD264028EB00A34A2F /* ActiveNegativeEmotionExistView.xib in Resources */,
+				8E41F630263FD37600687B3A /* Poppins-Bold.ttf in Resources */,
+				8EE2A3C726431FBB00B29AB4 /* ActionRecordTableViewCell.xib in Resources */,
+				8E41F634263FD37600687B3A /* Poppins-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E41F602263FCF0600687B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E01BF1F26418CEC00B64E37 /* NegativeEmotionInfoPopupViewController.swift in Sources */,
+				8EFC21F9264280340055E43F /* DataManager+Action.swift in Sources */,
+				8E41F63E263FE1A100687B3A /* UserDefaults+isFirstLaunch.swift in Sources */,
+				8EE2A3C92643214B00B29AB4 /* RecordViewController.swift in Sources */,
+				8EAB2DA92640170000A34A2F /* EmptyActiveNegativeEmotionView.swift in Sources */,
+				8EAB2DAB2640280E00A34A2F /* ActiveNegativeEmotionExistView.swift in Sources */,
+				8EFC220226430C8C0055E43F /* CongratulationViewController.swift in Sources */,
+				8EE2A3C626431FBB00B29AB4 /* ActionRecordTableViewCell.swift in Sources */,
+				8E01BF252641AB7500B64E37 /* DetailActiveNegativeEmotionViewController.swift in Sources */,
+				8E01BF1C26418AF500B64E37 /* ChooseNegativeEmotionPopupViewController.swift in Sources */,
+				8E41F642263FE31100687B3A /* NegativeEmotion+initData.swift in Sources */,
+				8EAB2DB026402B2100A34A2F /* ActiveNegativeEmotionTableViewCell.swift in Sources */,
+				8E01BF2A2641CD9900B64E37 /* ActionTableViewCell.swift in Sources */,
+				8E41F644263FE55F00687B3A /* DataManager.swift in Sources */,
+				8E41F60A263FCF0600687B3A /* AppDelegate.swift in Sources */,
+				8EFC21FB264280DE0055E43F /* DataManager+NegativeEmotion.swift in Sources */,
+				8EAB2DB72640943D00A34A2F /* AddActiveNegativeEmotionButton.swift in Sources */,
+				8E41F60C263FCF0600687B3A /* SceneDelegate.swift in Sources */,
+				8E0F5DE326401178007086EC /* HomeViewController.swift in Sources */,
+				8EFC21FE264306160055E43F /* ActionCollectionViewCell.swift in Sources */,
+				8E41F614263FCF0600687B3A /* Orcare.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8E41F60F263FCF0600687B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E41F610263FCF0600687B3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E41F617263FCF0700687B3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E41F618263FCF0700687B3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E41F61B263FCF0700687B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E41F61C263FCF0700687B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E41F61E263FCF0700687B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7Q7DN9JDX;
+				INFOPLIST_FILE = Orcare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yossansr.Orcare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E41F61F263FCF0700687B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M7Q7DN9JDX;
+				INFOPLIST_FILE = Orcare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yossansr.Orcare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E41F601263FCF0600687B3A /* Build configuration list for PBXProject "Orcare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E41F61B263FCF0700687B3A /* Debug */,
+				8E41F61C263FCF0700687B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E41F61D263FCF0700687B3A /* Build configuration list for PBXNativeTarget "Orcare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E41F61E263FCF0700687B3A /* Debug */,
+				8E41F61F263FCF0700687B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E41F612263FCF0600687B3A /* Orcare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E41F613263FCF0600687B3A /* Orcare.xcdatamodel */,
+			);
+			currentVersion = 8E41F613263FCF0600687B3A /* Orcare.xcdatamodel */;
+			path = Orcare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E41F5FE263FCF0600687B3A /* Project object */;
+}

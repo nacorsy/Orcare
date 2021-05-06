@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ActionCollectionCell" id="gTV-IL-0wX" customClass="ActionCollectionViewCell" customModule="Orcare" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="26"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="26"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FW2-qt-6Vh">
+                        <rect key="frame" x="0.0" y="0.0" width="162" height="26"/>
+                        <color key="backgroundColor" name="Brown"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="162" id="P3e-PJ-Za7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="12"/>
+                        <inset key="contentEdgeInsets" minX="16" minY="4" maxX="16" maxY="4"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" name="Deep Purple"/>
+                        </state>
+                        <connections>
+                            <action selector="actionButtonPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="lkO-fO-Gwy"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="FW2-qt-6Vh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="71C-cI-ran"/>
+                <constraint firstItem="FW2-qt-6Vh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="EN1-Fv-8N1"/>
+                <constraint firstAttribute="bottom" secondItem="FW2-qt-6Vh" secondAttribute="bottom" id="tcJ-Wz-f5h"/>
+                <constraint firstAttribute="trailing" secondItem="FW2-qt-6Vh" secondAttribute="trailing" id="u7p-LP-kYy"/>
+            </constraints>
+            <connections>
+                <outlet property="actionButton" destination="FW2-qt-6Vh" id="Go2-Yt-xxX"/>
+            </connections>
+            <point key="canvasLocation" x="-75.362318840579718" y="71.651785714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Brown">
+            <color red="0.96470588235294119" green="0.90980392156862744" blue="0.87450980392156863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Deep Purple">
+            <color red="0.30980392156862746" green="0.23529411764705882" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

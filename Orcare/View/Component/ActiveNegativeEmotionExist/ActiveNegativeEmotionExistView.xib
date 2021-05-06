@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ActiveNegativeEmotionExistView" customModule="Orcare" customModuleProvider="target">
+            <connections>
+                <outlet property="NegativeEmotionTableView" destination="FK5-7T-jaZ" id="mbQ-EM-1lU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="766"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FK5-7T-jaZ">
+                    <rect key="frame" x="25" y="101" width="340" height="665"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's take the actions today." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5W-XB-ga0">
+                    <rect key="frame" x="25" y="35" width="230" height="62"/>
+                    <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="22"/>
+                    <color key="textColor" name="Deep Purple"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FK5-7T-jaZ" secondAttribute="trailing" constant="25" id="Him-un-7Oo"/>
+                <constraint firstItem="Z5W-XB-ga0" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="JTp-wq-v8f"/>
+                <constraint firstItem="FK5-7T-jaZ" firstAttribute="top" secondItem="Z5W-XB-ga0" secondAttribute="bottom" constant="4" id="Ppk-Ls-lPd"/>
+                <constraint firstItem="Z5W-XB-ga0" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="35" id="RNz-iT-MP2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Z5W-XB-ga0" secondAttribute="trailing" constant="135" id="dau-Lm-MCA"/>
+                <constraint firstItem="FK5-7T-jaZ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="25" id="qVe-Hd-c9D"/>
+                <constraint firstItem="FK5-7T-jaZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="qyI-GU-X4j"/>
+                <constraint firstItem="FK5-7T-jaZ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="uc0-rX-nuS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-46.376811594202906" y="71.651785714285708"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Deep Purple">
+            <color red="0.30980392156862746" green="0.23529411764705882" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
